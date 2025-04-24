@@ -1,0 +1,10 @@
+C:\Users\roman\Desktop\SyncApp_NET8\SyncApp\obj\Debug\net472\SyncApp.csproj.AssemblyReference.cache
+C:\Users\roman\Desktop\SyncApp_NET8\SyncApp\obj\Debug\net472\SyncApp.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\roman\Desktop\SyncApp_NET8\SyncApp\obj\Debug\net472\SyncApp.AssemblyInfoInputs.cache
+C:\Users\roman\Desktop\SyncApp_NET8\SyncApp\obj\Debug\net472\SyncApp.AssemblyInfo.cs
+C:\Users\roman\Desktop\SyncApp_NET8\SyncApp\obj\Debug\net472\SyncApp.csproj.CoreCompileInputs.cache
+C:\Users\roman\Desktop\SyncApp_NET8\SyncApp\bin\Debug\net472\SyncApp.exe.config
+C:\Users\roman\Desktop\SyncApp_NET8\SyncApp\bin\Debug\net472\SyncApp.exe
+C:\Users\roman\Desktop\SyncApp_NET8\SyncApp\bin\Debug\net472\SyncApp.pdb
+C:\Users\roman\Desktop\SyncApp_NET8\SyncApp\obj\Debug\net472\SyncApp.exe
+C:\Users\roman\Desktop\SyncApp_NET8\SyncApp\obj\Debug\net472\SyncApp.pdb
