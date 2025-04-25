@@ -5,14 +5,14 @@ using SyncApp.Presenter;
 namespace SyncApp.View
 {
   public partial class MainForm : Form, IMainView
-    {
+  {
     public MainForm()
     {
       InitializeComponent();
-      presenter = new SyncPresenter(this);
+      Presenter = new SyncPresenter(this);
     }
 
-    SyncPresenter presenter;
+    SyncPresenter Presenter;
 
     private void buttonSelectDir1_Click(object sender, EventArgs e)
     {
@@ -38,7 +38,7 @@ namespace SyncApp.View
 
     private void buttonSync_Click(object sender, EventArgs e)
     {
-      presenter.Sync(textBoxDir1.Text, textBoxDir2.Text);
+      Presenter.Sync(textBoxDir1.Text, textBoxDir2.Text);
     }
 
     public void ShowMessage(string message)

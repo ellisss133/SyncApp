@@ -27,7 +27,6 @@ namespace SyncApp.Model
         var relative = file.Substring(dir2.Length).TrimStart(Path.DirectorySeparatorChar);
         relative2[relative] = file;
       }
-
       var allKeys = new HashSet<string>(relative1.Keys);
       allKeys.UnionWith(relative2.Keys);
 
@@ -42,6 +41,7 @@ namespace SyncApp.Model
           var file2 = relative2[relativePath];
           var hash1 = File.ReadAllBytes(file1);
           var hash2 = File.ReadAllBytes(file2);
+
           if (!StructuralComparisons.StructuralEqualityComparer.Equals(hash1, hash2))
           {
             File.Copy(file1, file2, true);

@@ -16,6 +16,7 @@ namespace SyncApp.Presenter
     public void Sync(string dir1, string dir2)
     {
       var result = DirectorySync.CompareAndSync(dir1, dir2);
+
       foreach (var line in result)
       {
         view.ShowMessage(line);
